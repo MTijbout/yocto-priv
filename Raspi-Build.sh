@@ -6,7 +6,14 @@
 #     exit 1
 # fi
 
+## Yocto flavor:
+YOCTO_RELEASE=Warrior
+
+
 BASE=$(pwd -P)
+
+
+
 
 ###
 ### Install packages needed by Yocto
